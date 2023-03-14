@@ -1,0 +1,35 @@
+public class stringMethods {
+
+    public static void main(String[] args) {
+        
+        String s1= "Education";
+        
+        //concatination function
+        System.out.println("Concatenaton Function");
+        String s2=s1.concat("  For All ");
+        System.out.println("Concatenate "+s2);
+        
+        //length function
+        System.out.println("Length function");
+        //s1.length();
+        System.out.println("length of string = "+s1.length());
+        
+        //1st SUbstring(int i) Function -  returns substrirng from ith index
+        System.out.println("Substring function");
+        //s1.substring(i)
+        System.out.println("substring  from 3rd index is "+s1.substring(3));
+        
+        //2nd substring(int i ,int j) function - returns subsdtring from ith index to j-1 index
+        System.out.println("substring  from i to j-1 index");
+        //s1.substring(2,6);
+        System.out.println("i= 2 , j=6 \n string = "+ s1.substring(2,6));
+        
+        //CharAt function
+        System.out.println("charAt funcntion ");
+        //s1.charAt(5);
+        System.out.println("charAt(5) = "+s1.charAt(5));
+        
+        
+    }
+    
+}
