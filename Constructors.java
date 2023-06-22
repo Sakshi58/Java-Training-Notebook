@@ -1,3 +1,5 @@
+
+///base class
 class amity
 {
 	amity()
@@ -10,13 +12,17 @@ class amity
 	}
 }
 
-
+//derived class
 class Constructors extends amity
 {
+	
+	///non-parameterized Constructor
 	Constructors()
 	{
 		System.out.println("Non parameterised constructor--global--derived");
 	}
+	
+	///parameterized Constructor
 	Constructors(int y)
 	{  
                 super(y);
